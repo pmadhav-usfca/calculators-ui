@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <form method="POST">
+        <input type="text" name="expression" value="{{ expression }}" />
+        <input type="submit" value="Calculate" />
+    </form>
+    {% if result %}
+    <h2>Result: {{ result }}</h2>
+    {% endif %}
+</body>
+</html>
