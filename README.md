@@ -1,6 +1,6 @@
 # Trying out various way to show a working calculator
-Ways:
-GUI - using tkinter
-Web App - using flash
+Ways: <br>
+GUI - using tkinter<br>
+Web App - using flash<br><br>
 
 Old undergrad project updation
